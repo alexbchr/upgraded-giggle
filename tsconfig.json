@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "noImplicitReturns": true,
+    "sourceMap": true,
+    "lib": ["es6"],
+    "moduleResolution": "node",
+    "strict": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "module": "commonjs",
+    "target": "es2017",
+    "jsx": "preserve",
+    "noEmit": true,
+    "skipLibCheck": true // Required because of expo package, even if a module doesn't use the Expo package :/
+  },
+  "compileOnSave": true,
+  "include": ["src", ".storybook"],
+  "exclude": ["dist"]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "upgraded-giggle",
+  "version": "0.1.26",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "yarn build && build-storybook -c .storybook -o web-build",
+    "start": "start-storybook -c .storybook -p 9009 -s public",
+    "prestorybook": "yarn build"
+  },
+  "peerDependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "react": "16.9.0",
+    "react-dom": "^16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.0.tar.gz",
+    "react-native-gesture-handler": "~1.6.0",
+    "react-native-svg": "~11.0.1",
+    "react-native-web": "^0.11.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.0",
+    "@storybook/addon-actions": "6.0.0-beta.26",
+    "@storybook/addon-controls": "6.0.0-beta.26",
+    "@storybook/addon-docs": "6.0.0-beta.26",
+    "@storybook/addon-storyshots": "6.0.0-beta.26",
+    "@storybook/addon-toolbars": "6.0.0-beta.26",
+    "@storybook/addons": "6.0.0-beta.26",
+    "@storybook/react": "6.0.0-beta.26",
+    "@storybook/source-loader": "6.0.0-beta.26",
+    "@types/jest": "^25.2.1",
+    "@types/react": "^16.9.35",
+    "@types/react-native": "^0.61.23",
+    "@types/react-test-renderer": "^16.9.2",
+    "babel-loader": "^8.1.0",
+    "babel-preset-expo": "^8.1.0",
+    "eslint": "^7.1.0",
+    "expo": "~37.0.8",
+    "paths.macro": "^3.0.0",
+    "react": "16.9.0",
+    "react-dom": "^16.9.0",
+    "react-is": "^16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.0.tar.gz",
+    "react-native-gesture-handler": "~1.6.0",
+    "react-native-storybook-loader": "^1.8.1",
+    "react-native-svg": "~11.0.1",
+    "react-native-svg-transformer": "^0.14.3",
+    "react-native-web": "^0.11.7",
+    "typescript": "^3.9.2",
+    "webpack": "^4.43.0"
+  },
+  "private": true,
+  "license": "UNLICENSED"
+}
