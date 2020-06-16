@@ -3,7 +3,7 @@ import { Text } from "react-native";
 
 export interface MyComponentProps {
   title?: string;
-  selected?: string;
+  selected?: boolean;
 }
 
 export const MyComponent: React.FC<MyComponentProps> = ({

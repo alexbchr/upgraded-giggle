@@ -19,6 +19,10 @@ const storybookConfig: StorybookConfig = {
       shouldExtractLiteralValuesFromEnum: true,
       tsconfigPath: tsconfig,
       propFilter: (prop) => !/^(testID)$/.test(prop.name),
+      compilerOptions: {
+        allowSyntheticDefaultImports: true,
+        esModuleInterop: true,
+      },
     },
   },
   webpackFinal: async (config) => {
